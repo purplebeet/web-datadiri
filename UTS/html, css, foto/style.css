@@ -1,0 +1,265 @@
+html {
+    scroll-behavior: smooth /* Menambahkan animasi scroll halus */
+}
+.body1{
+    background-color: #98BAE3;
+}
+/* Navbar styling */
+.button {
+    display: flex;
+    letter-spacing: 0.1em;
+    justify-content: center;
+    transition: all ease-in-out 0.5s;
+    margin-right: 1em;
+    background-color: #365475;
+    box-shadow: 5px 3px #585858;
+    border-radius: 20px;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+nav ul {
+    display: inline-flex;
+    list-style: none;
+    gap: 3rem;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    opacity: 100%;
+}
+
+nav ul li a:hover {
+    opacity: 100%;
+    text-decoration: underline;
+}
+
+/* BAGIAN FOTO & BIO */
+.bio {
+    text-align: justify;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.5em;
+    transition: all ease-in-out 0.5s;
+    margin: 17em;
+    margin-top: -11em;
+    border: 2px solid black;
+    padding: 20px;
+    background: #5981B1;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    max-width: 800px; /* Batas maksimal lebar */
+    color: #15273C;
+}
+.fotoprofile {
+    display: flex;
+    position: relative;
+    top: 4em;
+    left: 3em;
+    overflow: hidden;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 24%;
+    width: 180px;
+    height: 250px;
+    box-shadow: 5px 12px #888;
+}
+
+/*bagian Riwayat Pendidikan*/
+.bg-foto{
+    background: #868ebb;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    width: 95em;
+    height: 31em;
+    margin-top: 45em;
+    margin-left: 3em;
+}
+.riwayat{
+    text-align: justify;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.5em;
+    margin-right: 10em;
+    margin:  auto;
+    margin-top: -2.5em;
+    padding: 20px;
+    margin-left: 20em;
+    color: #15273C;
+}
+
+.bg-riwayat{
+    background: #5981B1;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    width: 27em;
+    height: 4em;
+    margin-top: -40em;
+    margin-left: 40em;
+
+}
+.fotosd{
+    margin-left: 8em;
+    margin-top: 3em;
+}
+.PendidikanSD{
+    line-height: 1.5;
+    font-family: Montserrat;
+    margin-top: 0em;
+    margin-left: 5em;
+    color: #15273C;
+}
+
+.fotosmp{
+    margin-left: 40em;
+    margin-top: -18.5em;
+}
+.Pendidikansmp{
+    line-height: 1.5;
+    font-family: Montserrat;
+    margin-top: -1em;
+    margin-left: 41em;
+    color: #15273C;
+}
+
+.fotosmk{
+    margin-left: 70em;
+    margin-top: -16em;
+}
+.Pendidikansmk{
+    line-height: 1.5;
+    font-family: Montserrat;
+    margin-top: -1em;
+    margin-left: 70em;
+    color: #15273C;
+}
+
+/*Bagian Faforite*/
+.Favorite{
+    text-align: justify;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.5em;
+    margin-right: 10em;
+    margin:  auto;
+    margin-top: 2em;
+    padding: 20px;
+    margin-left: 13em;
+    color: #15273C;
+}
+.bg-foto1{
+    background: #868ebb;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    width: 35em;
+    height: 15em;
+    margin-top: 0.5em;
+    margin-left: 25em;
+}
+.foto1{
+    margin-top: 1.5em;
+    margin-left: 2em;
+}
+.Nasi-Goreng{
+    line-height: 1.5;
+    font-family: Montserrat;
+    margin-top: -3.6em;
+    margin-left: 10em;
+    color: #15273C;
+}
+.bg-foto2{
+    background: #868ebb;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    width: 35em;
+    height: 15em;
+    margin-top: -15em;
+    margin-left: 63em;
+}
+.foto2{
+    margin-top: 1.5em;
+    margin-left: 2em;
+}
+.Mie-Ayam{
+    line-height: 1.5;
+    font-family: Montserrat;
+    margin-top: -3.6em;
+    margin-left: 10em;
+    color: #15273C;
+}
+
+/*Bagian Galerry*/
+.bg-Galerry1{
+    background: #868ebb;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    width: 35em;
+    height: 35em;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+.Galerry1{
+    line-height: 1.5;
+    font-family: Montserrat;
+    margin-top: 2em;
+    margin-left: 2em;
+    color: #15273C;
+}
+.Foto1{
+    margin-top: 2em;
+    margin-left: 2em;
+}
+.Foto2{
+    margin-top: -28.34em;
+    margin-left: 21.5em;
+}
+.Foto3{
+    margin-top: 1em;
+    margin-left: 21.5em;
+}
+.bg-Galerry2{
+    background: #868ebb;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    width: 34em;
+    height: 35em;
+    margin-top: -35em;
+    margin-left: 50em;
+}
+.Foto4 {
+margin-left: 3em;
+    margin-top: 2em;
+}
+.Foto5{
+margin-left: 4em;
+    margin-top: 1em;
+}
+.Foto6{
+    margin-left: 18em;
+    margin-top: -8.6em;
+}
+/*Bagian Footer*/
+.footer {
+    background-color: #020408;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    border-radius: 20px;
+}
+.footer {
+    padding: 21px;
+    margin-top: 10em;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 20px;
+}
+.social-media {
+    margin-top: 0em;
+}
+.social-media i {
+    font-size: 30px;
+    margin: 0 10px;
+}
